@@ -8,12 +8,14 @@ class AlertContact(object):
         EMAIL = 2
         TWITTER = 3
         BOXCAR = 4
+        SLACK = 11
 
     TYPES = {
         Type.SMS: "sms",
         Type.EMAIL: "email",
         Type.TWITTER: "twitter",
         Type.BOXCAR: "boxcar",
+        Type.SLACK: "slack",
     }
 
     class Status:
